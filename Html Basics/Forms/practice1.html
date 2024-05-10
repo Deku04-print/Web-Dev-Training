@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Filling</title>
+
+    <script src="prac.js"></script>
+</head>
+<body>
+    <h1>Govt. Job Apply Form</h1>
+<form method="post" onsubmit="reloadpage()">
+    <div>
+            <label for="username">Enter your username </label>
+            <input type="text" id="username" name="username">
+    </div>
+    <div>
+        Gender :
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Female</label>
+    </div> 
+    <br>
+    <div>
+        <h3>Education</h3>
+        <input type="checkbox" name="check" id="check1">
+        <label for="check1">SSC</label>
+        <input type="checkbox" name="check" id="check2">
+        <label for="check2">HSC</label>
+    </div>
+    <div>
+        <br><br>
+        <label for="com">Enter comments :</label>
+        <textarea name="com" id="com" cols="23" rows="5"></textarea>
+    </div>
+    <div>
+    <select name="job" id="job">
+        <option value="Railway">Railway</option>
+        <option value="Bank">Bank</option>
+        <option value="BMC">BMC</option>
+    </select>
+    </div>
+    <div><br>
+        <button type="submit">Submit</button>
+    </div>
+    
+</form>
+</body>
+</html>

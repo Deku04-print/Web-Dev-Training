@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <h1>Fill the document And Submit</h1>
+  <form method="post" onsubmit="reloadpage()">  
+    <div>
+        <label for="username">Enter Your Username </label>
+        <input type="text" id="username" name="username">
+    </div>
+    <div>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label>
+    </div>
+    <div>
+        <input type="checkbox" id="Checkthis" name="check" value="c">
+        <label for="checkthis">Check This</label>
+        <input type="checkbox" id="Checkthisalso" name="check" value="cd">
+        <label for="checkthis">Check This Also</label>
+    </div>
+    <div>
+        <label for="com">Enter comments </label>
+        <textarea name="comment" id="com" cols="20" rows="5"></textarea>
+    </div>
+    <div>
+        <select name="fruits" id="fruits">
+            <option value="apple">Apple</option>
+            <option value="watermelon">Watermelon</option>
+            <option value="mango">Mango</option>
+        </select>
+    </div>
+    <br>
+    <input type="submit" value="Submit" >
+</form>
+</body>
+</html>

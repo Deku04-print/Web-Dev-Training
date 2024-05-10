@@ -1,0 +1,18 @@
+
+p{
+    background-color: rgb(68, 166, 251);
+}
+
+div{
+    background-color: red;
+    
+}
+span{
+    background-color: violet;
+    color: rgb(0, 0, 231);
+
+}
+a{
+    background-color: brown;
+    color: aliceblue;
+}

@@ -1,0 +1,51 @@
+        /*Element Selecter*/
+        div{
+            color: whitesmoke;
+            background-color: rgb(46, 88, 88);
+           
+        }
+        /*Class Selecter*/
+        .red{
+            color: whitesmoke;
+            background-color: rgb(87, 38, 38);
+        }
+        /*ID Selecter*/
+        #id1{
+            background-color: aquamarine;
+            color: black;
+        }
+        /*Child Selecter*/
+        div > p {
+            background-color: rgb(4, 42, 29);
+            color: rgb(209, 201, 201);
+        }
+        /*Decendent Selecter*/
+        article p {
+            background-color: rgb(132, 53, 138);
+            color: rgb(209, 201, 201); 
+        }
+        /*Universal Selecter*/
+        *{
+            margin: 0;
+            padding: 0cm;
+        }
+
+        /*Pseudo Selecter*/
+        a:visited{
+            color: yellowgreen;
+            
+        }
+        a:link{
+            color: rgb(55, 65, 36);
+            
+        }
+        a:hover{
+            background-color: red;
+            color: rgb(7, 7, 110);
+            
+        }
+
+        div:first-child{
+            background-color: aqua;
+        }
+

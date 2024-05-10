@@ -1,0 +1,57 @@
+body{
+    background-color: rgba(118, 159, 4, 0.29);
+
+}
+div{
+    text-align: center;
+}
+table{
+    margin: auto;   
+}
+td{
+    color: rgb(82, 50, 45);
+    border: 1px;
+    border-style: solid;
+}
+th{
+    color: rgb(82, 50, 45);
+    border: 1px;
+    border-style: solid;
+}
+caption{
+    color: rgb(82, 50, 45);
+    border: 1px;
+    border-style: solid;
+}
+
+ul{
+    background-color: rgb(238, 197, 197);
+    border: 7px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: aquamarine;
+}
+ol{
+    background-color: rgb(238, 197, 197);
+    border: 7px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: aquamarine;
+}
+dl{
+    background-color: rgb(238, 197, 197);
+    border: 7px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: aquamarine;
+}
+dt{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(70, 6, 6);
+
+}
+dd{
+    font-style: italic;
+
+}

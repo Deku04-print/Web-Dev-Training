@@ -1,0 +1,29 @@
+marquee{
+    background: #000;
+    color: green;
+    border: 10px;
+    border-radius: 51px;
+    border-color: red;
+
+}
+
+body{
+    background-color: antiquewhite;
+}
+h1{
+    color: rgb(157, 100, 31);
+    
+    border: 10px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: black;
+}
+ol{
+    border: 10px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: black;
+}
+li{
+    font-family: fantasy;
+}

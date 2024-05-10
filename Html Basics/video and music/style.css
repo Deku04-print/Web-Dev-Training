@@ -1,0 +1,15 @@
+body{
+   background-color: bisque;
+}
+
+video{
+    border: 20px;
+    border-radius: 21px;
+
+}
+img{
+    border-color: brown;
+        border: 20px;
+        border-radius: 21px;
+        border-style: inset;
+}
