@@ -1,18 +1,18 @@
-// Show alert on input focus
-const searchInput = document.querySelector("main input");
+// Script for basic animations and interactivity
 
-searchInput.addEventListener("focus", () => {
-  console.log("User is searching...");
+document.addEventListener('DOMContentLoaded', function () {
+    const searchInput = document.querySelector('main input');
+
+    // Animate input field on focus
+    searchInput.addEventListener('focus', function () {
+        searchInput.style.width = '350px';
+        searchInput.style.transition = 'width 0.5s ease';
+    });
+
+    // Return to normal size when not in focus
+    searchInput.addEventListener('blur', function () {
+        searchInput.style.width = '300px';
+    });
+
+    
 });
-
-// Optional - show placeholder animation (typing effect)
-const placeholderText = [
-  "Search for Pizza, Biryani, Sushi...",
-  "Find your favourite restaurant...",
-  "What do you crave today?"
-];
-let i = 0;
-setInterval(() => {
-  searchInput.setAttribute("placeholder", placeholderText[i]);
-  i = (i + 1) % placeholderText.length;
-}, 3000);
