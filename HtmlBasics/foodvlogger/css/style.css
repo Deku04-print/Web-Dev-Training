@@ -54,7 +54,7 @@ header ul li a:hover {
 
 /* Main content */
 main {
-  background: url("img/bg.png") no-repeat center center/cover;
+  background: url("../img/bg.png") no-repeat center center/cover;
   height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
