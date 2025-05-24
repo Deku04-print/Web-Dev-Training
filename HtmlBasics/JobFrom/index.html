@@ -1,51 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apply For Drive</title>
-    <meta name="description" content="This is the job application form for berojgaars">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/faviconjob.png" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apply For Drive</title>
+  <meta name="description" content="Official government job application form for employment drive" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="img/faviconjob.png" type="image/x-icon" />
 </head>
 <body>
-    <header>
-      <h1>Government Application Form</h1>
-      <nav>
-        <ul>
-          <li><a href="/blogs.html">Blogs</a></li>
-          <li><a href="/CarrerRoadmap.html">Carrer Roadmap</a></li>
-          <li><a href="/signup.html">Sign Up</a></li>
-          <li><a href="/login.html">Login</a></li>
-        </ul>
-      </nav>        
-    </header>
-    <main>
-      <h2>Apply For Drive</h2>
-      <form action="/success.html" method="post">
-        <label for="firstname">First Name</label>
-        <input type="text" name="username" id="username">
-        <br>
-        <label for="LastName">Last Name</label>
-        <input type="text" name="LastName" id="LastName">
-        <br>
-        <label for="dob">Date of Birth</label>
-        <input type="date" name="dob" id="dob">
-        <br>
-        <label for="gender">Gender</label><br>
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="male">
-        <label for="male">Female</label>
-        <input type="radio" name="gender" id="Female">
-        <label for="male">Others</label>
-        <input type="radio" name="gender" id="Others">
-        <br>
-        <select name="MS" id="shaadi">
+  <header>
+    <h1>Government Job Application Portal</h1>
+    <nav>
+      <ul>
+        <li><a href="/blogs.html">Blogs</a></li>
+        <li><a href="/career-roadmap.html">Career Roadmap</a></li>
+        <li><a href="/signup.html">Sign Up</a></li>
+        <li><a href="/login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Apply for Government Employment Drive</h2>
+    <br>
+
+      <form action="/success.html" method="post" id="applicationForm">
+        <label for="firstname">First Name *</label>
+        <input type="text" name="firstname" id="firstname" required />
+
+        <label for="lastname">Last Name *</label>
+        <input type="text" name="lastname" id="lastname" required />
+
+        <label for="dob">Date of Birth *</label>
+        <input type="date" name="dob" id="dob" required />
+
+        <fieldset>
+          <legend>Gender *</legend>
+          <label><input type="radio" name="gender" value="Male" required /> Male</label>
+          <label><input type="radio" name="gender" value="Female" /> Female</label>
+          <label><input type="radio" name="gender" value="Other" /> Other</label>
+        </fieldset>
+
+        <label for="marital">Marital Status *</label>
+        <select name="maritalStatus" id="marital" required>
+          <option value="">--Select--</option>
           <option value="Single">Single</option>
           <option value="Married">Married</option>
           <option value="Divorced">Divorced</option>
         </select>
+
+        <label for="nationality">Nationality *</label>
+        <input type="text" name="nationality" id="nationality" required />
+
+        <label for="address">Address *</label>
+        <textarea name="address" id="address" rows="4" required></textarea>
+
+        <label for="email">Email ID *</label>
+        <input type="email" name="email" id="email" required />
+
+        <button type="submit">Submit Application</button>
       </form>
-    </main>
+    </section>
+
+    <aside>
+      <h3>Previous Job Openings</h3>
+      <p>Explore our <a href="/previous.html">previous job openings</a> including Software Engineer and DevOps roles.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2030 Government Job Portal. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
