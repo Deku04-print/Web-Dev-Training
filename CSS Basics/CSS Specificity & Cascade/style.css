@@ -20,3 +20,20 @@
     text-transform: uppercase;
     font-weight: 60;    
 }
+.center{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Full height of the viewport */
+}
+img:hover{
+    border: 10px;
+    border-style: solid;
+    border-radius: 50px;
+    justify-content: center;
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+body{
+    background: #ec14004e;
+}
