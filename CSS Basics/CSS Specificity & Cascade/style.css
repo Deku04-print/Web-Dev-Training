@@ -11,6 +11,10 @@
     -webkit-text-stroke: 0.5px;
     text-transform: uppercase;
     font-weight: 60;
+    border-style: double;
+    border-left: #ec14004e;
+    border-left: 6px solid rgba(16, 153, 28, 0.81);
+    border-right: 6px solid rgba(16, 153, 28, 0.81);
 }
 
 #head2,#head1{
@@ -33,6 +37,7 @@ img:hover{
     border-radius: 50px;
     justify-content: center;
     transition: cubic-bezier(0.23, 1, 0.320, 1);
+    border-color: azure;
 }
 
 body{
