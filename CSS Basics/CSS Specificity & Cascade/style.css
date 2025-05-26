@@ -2,6 +2,7 @@
     font-family:  poppins;
     margin: 0%;
     padding: 0%;
+    
 }
 .header{
     text-align: center;
@@ -36,4 +37,6 @@ img:hover{
 
 body{
     background: #ec14004e;
+    background-color: rgb(60, 52, 46);
+    background-repeat:inherit;
 }
