@@ -3,6 +3,20 @@
     margin: 0%;
     padding: 0%;
 }
-h2{
-    
+.header{
+    text-align: center;
+    background-color: aliceblue;
+    text-shadow: 10px;
+    -webkit-text-stroke: 0.5px;
+    text-transform: uppercase;
+    font-weight: 60;
+}
+
+#head2,#head1{
+    text-align: center;
+    background-color: aliceblue;
+    text-shadow: 10px;
+    -webkit-text-stroke: 0.5px;
+    text-transform: uppercase;
+    font-weight: 60;    
 }
