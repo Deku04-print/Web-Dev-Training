@@ -1,3 +1,4 @@
 {
-    "livePreview.hostIP": "192.168.0.104"
+    "livePreview.hostIP": "192.168.0.104",
+    "livePreview.defaultPreviewPath": "/CSS Basics/Project/Vacation/index.html"
 }
