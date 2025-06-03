@@ -10,10 +10,10 @@ h1{
     background-color: rgb(67, 39, 93);
     border: 3px;
     border-style:solid;
-    border-radius: 10px;
+    border-radius: 19px;
 }
 h2{
-    text-align:justify;
+    text-align:center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: 10px;
     background-color: blueviolet;
