@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card </title>
+    <style>
+     * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  align-items: center;      /* centers vertically */
+  height: 100vh;            /* full viewport height */
+  background-color: #f0f0f0;
+}
+
+.card {
+  padding: 20px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  text-align: center;
+  background-color: white;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+        
+    </style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="card">
+    <img src="tour.jpg" alt="Tourist Spot">
+    <p>Explore the beautiful beaches of Goa!</p>
+  </div>
+</div>
+</body>
+</html>
