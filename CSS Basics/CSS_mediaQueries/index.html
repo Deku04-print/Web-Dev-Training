@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Media Queries</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      body {
+        background-color: red;
+      }
+      .box{
+
+        padding: 12px;
+        margin-bottom: 22px
+    }
+      @media only screen and (max-width: 455px) {
+        body {
+          background-color: rgb(151, 89, 89);
+        }
+        .container{
+            flex-direction: column;
+        }
+        .box{
+           background-color: antiquewhite;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>i an a radom green color text</div>
+
+    <div class="contain">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+    </div>
+  </body>
 </html>
