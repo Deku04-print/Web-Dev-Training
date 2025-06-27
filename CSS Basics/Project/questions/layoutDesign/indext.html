@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page laout</title>
+    <style>
+      * {
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      div {
+        border: 1px solid black;
+      }
+      ul li {
+        box-sizing: border-box;
+        list-style: none;
+        display: inline-block;
+        margin-left: 10px;
+        background-color: tomato;
+        padding: 5px;
+        border: 1px solid rgb(24, 7, 1);
+        border-top-right-radius: 5px;
+      }
+      li:hover {
+        background-color: rgb(96, 157, 138);
+      }
+      .navbarmain {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(244, 141, 141);
+      }
+      .cir {
+        position: fixed;
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+        bottom: 10px;
+        right: 1vw;
+        background-color: bisque;
+        text-align: center;
+      }
+      .cir:hover {
+       
+        background-color: rgb(224, 145, 48);
+      }
+      .box {
+        display: flex;
+        padding: 40px;
+        background-color: rgb(191, 175, 175);
+      }
+      .cards {
+        background-color: rgb(210, 144, 122);
+        margin: 10px;
+        padding: 10px;
+        height: 80%;
+        width: 80%;
+        margin: 5px 5px;
+        display: block;
+        /* align-items: center; */
+        text-align: center;
+      }
+      img {
+        /* position: relative; */
+        border-radius: 7px;
+        border:2px solid ;
+        box-shadow: 5px 6px 8px #433d3d;
+      }
+        /* .favicon {
+            display:;
+        position: relative;
+        height: 30%;
+        width: 30%;
+        border-radius: 7px;
+        box-shadow: 5px 6px 8px #433d3d;
+      } */
+      .textbox{
+        /* height: 50vh;
+        width: 50vh; */
+        padding: 40px;
+        align-items: center;
+        text-align: center;
+        display: block;
+        height: 244px;
+    }
+    .text{
+        font-size: large;
+        
+    }
+    .textbox>div{
+          border-radius:10px;
+          background-color: antiquewhite;
+          box-shadow: 5px 6px 8px #433d3d;
+          padding: 5px;
+          margin-top: 10px;
+        
+      }
+      footer>div{
+        background-color: rgb(85, 100, 100);
+        height: 80px;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cir">
+        
+    </div>
+    <div class="navbarmain">
+      <nav>
+        <ul>
+          <!-- <li><img class="favicon" src="image.png" alt="nav" srcset=""></li> -->
+          <li class="navbar">Home</li>
+          <li class="navbar">Contact</li>
+          <li class="navbar">Careers</li>
+          <li class="navbar">Postings</li>
+        </ul>
+      </nav>
+    </div>
+    <div class="box">
+      <div class="cards">
+        <img
+          src="https://www.cnet.com/a/img/resize/efb028bcb40115100ceaee4bc73e7617b00bac2c/hub/2013/03/28/8ccbe6e9-cc2e-11e2-9a4a-0291187b029a/RSG-GTAV-Screenshot_1.jpg?auto=webp&width=1200"
+          alt="gta v"
+          srcset=""
+          width="200px"
+        />
+      </div>
+      <div class="cards">
+        <img
+          src="https://www.cnet.com/a/img/resize/efb028bcb40115100ceaee4bc73e7617b00bac2c/hub/2013/03/28/8ccbe6e9-cc2e-11e2-9a4a-0291187b029a/RSG-GTAV-Screenshot_1.jpg?auto=webp&width=1200"
+          alt="gta v"
+          srcset=""
+          width="200px"
+        />
+      </div>
+    </div>
+    <div class="textbox">
+      <div>
+        <p class="text">
+            Grand Theft Auto is an action-adventure video game series created by David Jones and Mike Dailly. Later titles were developed under the oversight of brothers Dan and Sam Houser, Leslie Benzies and Aaron Garbut.
+        </p>
+      </div>
+    </div>
+    <footer>
+      <div class="foot">
+
+      </div>
+    </footer>
+  </body>
+</html>
