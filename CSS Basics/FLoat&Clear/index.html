@@ -3,11 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Float And Clear</title>
+    <style>
+        img{
+            float:left;
+            border-radius: 20px;
+
+        }
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+        .card{
+            border: 2px solid rgb(120, 31, 31);
+            margin: 10px;
+        }
+        .card:nth-child(2){
+            clear: left;
+        }
+    </style>
 </head>
 <body>
-    <div class="car">Car 2</div>
-    <div class="car">Car 3</div>
-    <div class="car">Card 3</div>
-</body>
+    <div class="cards">
+        <img src="tour.jpg" alt="img" width="230">
+        <div class="card">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt culpa possimus repudiandae voluptatibus odio, animi expedita, voluptatum doloremque quasi architecto incidunt nemo odit minima vel? Eaque, ex. Harum quia asperiores culpa praesentium!</div>
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores neque eum voluptatum velit dolorum, nobis cumque, non maxime accusantium corrupti cupiditate culpa delectus laboriosam, nesciunt tempore necessitatibus. Possimus quia voluptas quae? Esse perferendis alias voluptatem ab animi aspernatur, iste ducimus quia quaerat saepe sint, recusandae impedit! Corporis dignissimos architecto dolore quis non dolores similique?</div>
+        <div class="card">Card 3</div>
+
+    </div>
+    </body>
 </html>
