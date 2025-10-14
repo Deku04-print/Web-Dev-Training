@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+@font-face {
+  font-family: "Netflix-Font";
+  src: url(./assets/fonts/Netflix\ Sans\ Medium.otf);
+}
+
+.main {
+  background-image: url(assets/images/bg-latest.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 70vh;
+  position: relative;
+}
+
+.main .box {
+  height: 70vh;
+  width: 100%;
+  opacity: 0.69;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 60vw;
+  align-items: center;
+  height: 62px;
+}
+
+nav img {
+  color: red;
+  width: 114px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  font-family: "Netflix-Font", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu;
+  padding: 23px 50px;
+  text-align: center;
+  height: calc(100% - 64px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 0 30px;
+}
+
+.hero > :nth-child(1) {
+  font-weight: bold;
+  padding-bottom: 10px;
+  font-size: 38px;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-weight: 400;
+  padding-bottom: 1rem;
+  font-size: 24px;
+  text-align: center;
+}
+
+.hero > :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.separation {
+  height: 7px;
+  background-color: rgb(38, 38, 38);
+}
+
+.btn {
+  padding: 3px 8px;
+  font-weight: 400;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.252);
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-red{
+  background-color: red;
+  color: white;
+  padding: 3px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 400;
+}
+
+.btn-red-sm {
+  color: white;
+  background-color: red;
+}
+
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.main input{
+  padding: 7px 101px 8px 14px;
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 4px;
+  color: white;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(246,238,238,0.5);
+}
