@@ -60,15 +60,3 @@ This repo is a reflection of **consistent learning, experimentation, and improve
 
 ---
 
-## 📂 Repository Structure
-
-```text
-📦 web-dev-training
- ┣ 📂 html-css-basics
- ┣ 📂 javascript
- ┣ 📂 react
- ┣ 📂 nextjs
- ┣ 📂 backend
- ┣ 📂 mini-projects
- ┣ 📂 experiments
- ┗ 📜 README.md
