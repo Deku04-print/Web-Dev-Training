@@ -8,15 +8,31 @@
 // console.log("Now i am the last process")
 
 
-function greetings(username) {
-  alert('Welcome ' + username);
-}
-//the function declaration above is to be passed into the function below thereby making it a callback function.
+//function to print result in the H1 tag 
 
-function saveUserName(callback) {
-  var name = prompt('Please enter your username.');
-  callback(username);
-}
-//the above function states the callback function as a parameter
 
-saveUserName(greetings);
+//initializing elements
+
+const btn = document.getElementById("cli");
+const num1 = document.getElementById("num1");
+const num2 = document.getElementById("num2");
+
+function sum(callback,num1,num2){
+
+  let result = num1+num2;
+  callback(result);
+
+}
+btn.addEventListener("click",function(){
+
+  let value1 = Number(num1.value);
+  let value2 = Number(num2.value);
+   sum(Display, value1, value2);
+
+})
+
+function Display(res){
+    document.getElementById("res").innerHTML = res;
+
+
+}
