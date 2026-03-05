@@ -35,7 +35,24 @@ async function getWeatherData(city) {
 
 
 function displayWeatherInfo(data){
-    console.log(data);
+    const {name:city,
+        main:{temp,humidity},
+        weather:[{description,id}]}=data;
+
+        card.textContent=" ";
+        card.style.display="flex"
+        const cityDisplay = document.createElement("h1");
+        const tempDisplay = document.createElement("p");
+        const humidityDisplay = document.createElement("p");
+        const descDisplay = document.createElement("p");
+        const weatherDisplay = document.createElement("p");
+
+        cityDisplay.textContent=city;
+        tempDisplay.textContent=`${temp} °K `
+        cityDisplay.classList.add("cityDisplay");
+        tempDisplay.classList.add("tempDisplay");
+        card.appendChild(cityDisplay);
+        card.appendChild(tempDisplay);
 
 }
 
