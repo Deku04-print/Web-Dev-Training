@@ -24,3 +24,32 @@ for(let char=string1.length-1;char>=0;char--){
 
 }
 console.log(newstr) */
+
+
+function addLocalNote(note){
+    let notes = JSON.parse(localStorage.getItem("notes")) || [];
+    notes.push(note);
+    localStorage.setItem("notes", JSON.stringify(notes));
+}
+
+function displayNotes(){
+    let notes = JSON.parse(localStorage.getItem("notes")) || [];
+    let list = document.querySelector(".note");
+
+    list.innerHTML = "";
+
+    for(let n of notes){
+        list.innerHTML += `<li>${n}</li>`;
+    }
+}
+
+document.querySelector("button").addEventListener("click",()=>{
+    let note = prompt("Enter your note");
+
+    if(note){
+        addLocalNote(note);
+        displayNotes();
+    }
+});
+
+displayNotes();
