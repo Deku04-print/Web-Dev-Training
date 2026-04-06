@@ -1,0 +1,22 @@
+body{
+    /* background-color: black;
+    color: white; */
+}
+
+.border{
+    border: 2px solid red;
+}
+.left{
+    width: 25vw;
+}
+
+.flex{
+
+
+}
+.justify-center{
+    align-items: center;
+}
+.right{
+    width: 75vw;
+}
