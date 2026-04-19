@@ -36,3 +36,25 @@ display: flex;
 .m-1{
     margin: 5px;
 }
+
+.p-1{
+    padding: 10px;
+}
+
+.log{
+
+    height: 35px;
+    width: 80px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+.sign{
+    height: 35px;
+    border: none;
+    width: 80px;
+    background-color: #121212;
+    border: #121212;
+    border-radius: 50px;
+    color: rgb(243, 238, 230);
+}
